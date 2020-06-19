@@ -3,9 +3,9 @@ import java.util.concurrent.BlockingDeque;
 public class TPC02 {
     public static void main(String[] args) {
         /* 프로그래밍의 3대요소
-        * 변수 : 메모리 공간의 이름 (크기, 종류 필요)
-        * 자료형 : 변수가 저장할 수 있는 데이터 타입
-        * 할당 : '=' 로 변수에 자료를 저장 */
+        * 변수 : 메모리 공간의 이름 (크기, 종류 필요) - Variable
+        * 자료형 : 변수가 저장할 수 있는 데이터 타입 - Data Type
+        * 할당 : '=' 로 변수에 자료를 저장 - Assign */
 
         /* 변수 선언 = 메모리할당 */
         int num1, num2, num3;
