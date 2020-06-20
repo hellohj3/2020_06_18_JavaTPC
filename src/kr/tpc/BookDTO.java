@@ -11,6 +11,16 @@ public class BookDTO {
     private int price;
     private int page;
 
+    public BookDTO() {
+    }
+
+    public BookDTO(String title, String company, int price, int page) {
+        this.title = title;
+        this.company = company;
+        this.price = price;
+        this.page = page;
+    }
+
     public String getTitle() {
         return title;
     }
