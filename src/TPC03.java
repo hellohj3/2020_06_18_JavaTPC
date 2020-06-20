@@ -11,12 +11,12 @@ public class TPC03 {
         /* 책 1권을 저장하기위한 변수를 선언하시오 = BookVO 객체 생성 (내부적으로 reference를 저장) */
         BookVO b = new BookVO();
 
-        b.setTittle("자바");
+        b.setTitle("자바");
         b.setPrice(15000);
         b.setCompany("한빛미디어");
         b.setPage(700);
 
-        System.out.print("[Title] : " + b.getTittle() + "\t");
+        System.out.print("[Title] : " + b.getTitle() + "\t");
         System.out.print("[Price] : " + b.getPrice() + "\t");
         System.out.print("[Company] : " + b.getCompany() + "\t");
         System.out.println("[Page] : " + b.getPage());

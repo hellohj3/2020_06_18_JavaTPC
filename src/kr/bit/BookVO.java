@@ -1,22 +1,36 @@
 package kr.bit;
 
 /* 책 사용자 정의 자료형 (User Define Data Type)
- * 제목 : tittle
+ * 제목 : title
  * 가격 : price
  * 출판사 : company
  * 페이지수 : page */
 public class BookVO {
-    private String tittle;
+    private String title;
     private String company;
     private int price;
     private int page;
 
-    public String getTittle() {
-        return tittle;
+    public BookVO() {
+        this.title = "자바";
+        this.price = 14000;
+        this.company = "이지스";
+        this.page = 780;
     }
 
-    public void setTittle(String tittle) {
-        this.tittle = tittle;
+    public BookVO(String title, int price, String company, int page) {
+        this.title = title;
+        this.price = price;
+        this.company = company;
+        this.page = page;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getCompany() {
