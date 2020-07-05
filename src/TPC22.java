@@ -1,5 +1,5 @@
-import kr.tpc.Animal;
-import kr.tpc.Cat;
+import kr.poly.Animal;
+import kr.poly.Cat;
 
 public class TPC22 {
     public static void main(String[] args) {

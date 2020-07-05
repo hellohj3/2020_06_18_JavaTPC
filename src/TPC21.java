@@ -1,6 +1,6 @@
-import kr.tpc.Animal;
-import kr.tpc.Cat;
-import kr.tpc.Dog;
+import kr.poly.Animal;
+import kr.poly.Cat;
+import kr.poly.Dog;
 
 public class TPC21 {
     public static void main(String[] args) {

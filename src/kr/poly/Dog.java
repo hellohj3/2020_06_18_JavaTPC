@@ -1,4 +1,4 @@
-package kr.tpc;
+package kr.poly;
 
 public class Dog extends Animal {
     @Override
