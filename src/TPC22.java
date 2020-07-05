@@ -12,6 +12,6 @@ public class TPC22 {
         /* Downcasting */
         //Cat c = (Cat)ani;
         //c.night();
-        ((Cat)ani).night();
+        ((Cat) ani).night();
     }
 }
