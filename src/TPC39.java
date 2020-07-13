@@ -11,5 +11,16 @@ public class TPC39 {
         int e = b;
 
         int f = (Integer)c;
+
+        String x = "100";
+        String y = "200";
+
+        int v1 = Integer.parseInt(x);
+        int v2 = Integer.parseInt(y);
+        System.out.println(v1+v2);
+
+        String s1 = String.valueOf(v1);
+        String s2 = String.valueOf(v2);
+        System.out.println(s1+s2);
     }
 }
